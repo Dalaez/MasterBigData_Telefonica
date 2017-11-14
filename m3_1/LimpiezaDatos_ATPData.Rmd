@@ -13,9 +13,12 @@ De cara a llevar a cabo las acciones de limpieza relativas a esta tarea, se ha s
 
 Sobre dicho dataframe, y tras un análisis previo de los datos en R, se van a realizar las siguientes acciones de limpieza y preparación de los datos:
 
- * Conversión de datos de fecha
- * Convertir a minúsculas todos los atributos (columnas)
+ * Conversión de formatos de fecha y creación de nuevas columnas
+ * Conversión a minúsculas todos los atributos (columnas)
  * Indicación de NA y eliminación
+ * Eliminación de elementos duplicados
+ * Eliminación de observaciones nulas (variable = **tourney_id** nula)
+ * Eliminación de valores y observaciones sin utilidad para posteriores análisis 
 
 ## Proceso de Limpieza y Preparación de los datos
 
